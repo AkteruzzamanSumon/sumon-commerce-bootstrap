@@ -1,18 +1,65 @@
-.panda-card{
-    border:0;
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Tangerine:wght@700&display=swap');
+.seller{
+    font-family: 'Tangerine', cursive;
+    font-size: 30px;
 }
-.panda-card-footer{
-    background-color:white;
-    border:0;
+
+.margin-bottom {
+    margin-bottom: 100px;
 }
-.categories img{
-    width:100px;
+
+.panda-card {
+    border: 0;
 }
-.panda-slide .carousel-item{
-    background-color:#fceae8;
+
+.panda-card-footer {
+    background-color: white;
+    border: 0;
+}
+
+.categories img {
+    width: 100px;
+}
+
+.panda-slide .carousel-item {
+    background-color: #fceae8;
     border-radius: .5em;
 }
-.panda-container{
-    margin-top:100px;
-    margin-bottom:20px;
+
+.my-watch {
+    background-color: #FFA500;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+.my-bag {
+    background-color: #0000FF;
+    padding: 10px 30px;
+    border-radius: 10px
+}
+
+.my-shoes {
+    background-color: #DA70D6;
+    padding: 10px 30px;
+    border-radius: 10px
+}
+
+.value {
+    color: #FF136F;
+}
+
+.buy-now-btn {
+    /*background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);*/
+    background-color: #FF3383;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+#subscribe{
+    height:300px;
+    background-color:#FFDEAD;
+    border-radius:5px;
 }
